@@ -15,12 +15,12 @@ inputList = inputs.split(',') #  set the input as list datastructures as python
 
 # process section
 
-ouputList = [] # set outputList as empty
+outputList = [] # set outputList as empty
 
-# code for creating a ouputList
+# code for creating a outputList
 for input in inputList:
     if ( int(input) >= 0): # finding the +ve numbers and add it to outputList list datastructures
-        ouputList.append(input)
+        outputList.append(input)
 
 
 
@@ -29,4 +29,4 @@ for input in inputList:
 
 # formatted ouput
 print("input :" + str(inputList))
-print("output :" + str(ouputList))
+print("output :" + str(outputList))
